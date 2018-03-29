@@ -1,0 +1,16 @@
+<Window x:Class="u2_Summative_Brushey.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u2_Summative_Brushey"
+        mc:Ignorable="d"
+        PreviewKeyDown="Key_Down"
+        Title="MainWindow" Height="600" Width="800">
+    <Canvas x:Name="Canvas" Background="Black">
+        <Label HorizontalContentAlignment="Center" 
+               Content="Spaceship 1: w a s d, Spaceship 2: up left down right, Spaceship 3: i j k l, Spaceship 4: Numpad up Numpad left Numpad down Numpad right" 
+               Background="White" 
+               Width="792"/>
+    </Canvas>
+</Window>
